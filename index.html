@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="UTF-8">
+<title>PIXEL TEASE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+<script src="script.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<body>
+    <div class="header">
+        <img class="tease" src="assets/pixelTease.png">
+    </div>
+
+    <div class="mainContainer">
+        <div class="borderContainer">
+            <canvas id="myCanvas" style= "background-image: url('assets/shirt.png'); background-size: contain;" height="500" width="500">
+            </canvas>
+            
+            <div class="sketchContainer">
+            
+            </div>
+       
+        </div>
+        <div class="menuContainer">
+            <div class="trashIcon"><img src="assets/trashCan.png"></div>
+            <div class="numButton" id="eight">8</div>
+            <div class="numButton" id="sixteen">16</div>
+            <div class="numButton" id="sixtyfour">64</div>
+            <div class="eraser"><img src="assets/eraser.png"></div>
+            <input type="color" class="colorInput" value="#000000">
+            <div class="export">
+                <img src="assets/export.png">
+            </div>
+        </div>
+    </div>
+
+    <p class="copyright">Copywrong 2022 spnarkdnark</p>
+    <a href="github.com/spnarkdnark">github.com/spnarkdnark</a>
+
+</body>
+
+</html>

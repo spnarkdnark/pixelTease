@@ -1,0 +1,156 @@
+body{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+
+.tease{
+    height: 100px;
+}
+
+.header img{
+    margin-top: 50px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.mainContainer{
+    display: flex;
+    margin-top: 25px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.borderContainer{
+    display: flex;
+    border: 2px solid lightgray;
+}
+
+
+
+.menuContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 25px;
+}
+
+.numButton{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numButton:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.shirt{
+    height: 500px;
+    width: 500px;
+}
+
+.sketchContainer{
+height: 500px;
+width: 500px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.eraser{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eraser:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.colorSelection{
+    background-color: black;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.export{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.export:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.colorSelection:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.trashIcon{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trashIcon:hover{
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.gridRow {
+    display: flex;
+}
+
+.gridUnit{
+    background-color:white;
+    outline: .5px solid rgb(240, 240, 240);
+    outline-offset: -1px;
+}
+
+.gridUnit:hover{
+        animation: blinker .75s linear infinite;
+        background-Color: rgb(245, 243, 243);
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fade {
+      100% {
+          opacity: 50%;
+      }
+  }
+
+  .colorInput{
+      height: 50px;
+      width: 50px;
+      flex-shrink: 0;
+  }
