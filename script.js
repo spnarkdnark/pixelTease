@@ -29,6 +29,7 @@ trashIcon.addEventListener('click', trashClick);
 eraser.addEventListener('click', function(){currentColor = 'rgb(255,255,255)'});
 exportButton.addEventListener('click', exportClick);
 colorInput.addEventListener('input', colorInputButton);
+colorInput.addEventListener('click', function(e){currentColor = e.target.value;});
 
 function colorInputButton(event){
     currentColor = event.target.value;
